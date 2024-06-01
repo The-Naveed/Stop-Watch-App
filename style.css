@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    color: black;
+    /* text-align: center; */
+}
+
+p{
+    font-size: 20px;
+}
+
+.heading1{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tally {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-size: 150px;
+    border: 3px solid;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 10px;
+}
+
+.screen{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.stwatch {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-size: 150px;
+    border: 3px solid;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 10px;
+}
+
+.plusbtn{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+    border: 0px;
+
+}
+
+.plusbtn:hover{
+    box-shadow: 0 0 10px green;
+    color: green;
+}
+
+.plusbtn:active{
+    border: 3px solid green;
+    color: white;
+    background-color: green;
+    transition: 0.05s;
+    box-shadow: 0 0 10px black;
+}
+
+
+.blubtn{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+    border: 0px;
+
+}
+
+.blubtn:hover{
+    box-shadow: 0 0 10px blue;
+    color: blue;
+}
+
+.blubtn:active{
+    border: 3px solid blue;
+    color: white;
+    background-color: blue;
+    transition: 0.05s;
+    box-shadow: 0 0 10px blue;
+}
+
+
+.resetbtn{
+    width: 120px;
+    height: 120px;
+    font-size: 25px;
+    border-radius: 50%;
+    font-weight: bold;
+    background: none;
+    border:0px;
+}
+
+.resetbtn:hover{
+    box-shadow: 0 0 10px red;
+    color: red;
+}
+
+.resetbtn:active{
+    border: 3px solid red;
+    color: white;
+    background-color: red;
+    transition: 0.05s;
+    box-shadow: 0 0 10px black;
+}

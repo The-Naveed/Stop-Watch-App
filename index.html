@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="heading1">STOP WATCH APP</div>
+        <div align="center" class="screen">
+            <div>
+                <h1 id="minHeading">00</h1>
+                <p>MINs</p>
+
+            </div>
+            <div>
+                <h1 id="secHeading">00</h1>
+                <p>SECs</p>
+            </div>
+            <div>
+                <h1 id="msecHeading">00</h1>
+                <p>MSECs</p>
+            </div>
+        </div><br>
+
+        <div align="center">
+            <button onclick="startWatch()" class="plusbtn">START</button>
+            <button onclick="stopWatch()" class="resetbtn">STOP</button>
+            <button onclick="resetWatch()" class="blubtn">RESET</button>
+        </div>
+    </div>
+
+    <div>
+        <div class="heading1">TALLY COUNTER APP</div>
+        <div align="center">
+            <input id="tallyInput" class="tally" placeholder="0">
+        </div><br>
+        <div align="center">
+            <button onclick="reset()" class="resetbtn">RESET</button>
+            <button onclick="count()" class="plusbtn">COUNT</button><br><br>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
